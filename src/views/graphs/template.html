@@ -1,0 +1,16 @@
+<div>
+  <input type="radio" id="graph1" value="graph1" v-model="radio" :disabled="loading">
+  <label for="graph1">graph1</label>
+  <br>
+  <input type="radio" id="graph2" value="graph2" v-model="radio" :disabled="loading">
+  <label for="graph2">graph2</label>
+  <br />
+  <span v-if="loading" class="loading">Loading...</span>
+  <Graph
+    v-else
+    v-bind:data.sync="graph"
+    :width="width"
+    :height="height"
+    class="graph"
+  />
+</div>

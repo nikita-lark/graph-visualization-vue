@@ -1,0 +1,30 @@
+{
+  "name": "graph-vue",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "An example of Springy.js integration into a Vue.js application.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "test": "mocha 'src/**/*.test.*'",
+    "lint": "./node_modules/.bin/eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nikita-lark/graph-vue.git"
+  },
+  "author": "Nikita Lark <nikita@lark.ee>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@vue/cli-service": "^4.2.3",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^7.1.0",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

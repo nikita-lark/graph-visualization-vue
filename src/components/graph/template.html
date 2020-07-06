@@ -1,0 +1,26 @@
+<svg
+  version="1.1"
+  :width="width"
+  :height="height"
+  xmlns="http://www.w3.org/2000/svg"
+  style="border: 1px solid #ccc"
+>
+  <line
+    v-for="edge in graph.edges"
+    :x1="edge.point1.x + 30"
+    :y1="edge.point1.y + 15"
+    :x2="edge.point2.x + 30"
+    :y2="edge.point2.y + 15"
+    style="stroke:rgb(0,0,0);stroke-width:1"
+  />
+  <Node
+    v-for="(node, idx) in graph.nodes"
+    :key="idx"
+    :id="node.id"
+    :x="node.x"
+    :y="node.y"
+    :label="node.label"
+    v-on:drag="onNodeDrag"
+    v-on:click="onNodeClick"
+  />
+</svg>

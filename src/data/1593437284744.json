@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "id": "a304d2bf-b981-4453-bf7c-946bfc3a1322",
+      "name": "Frontend App 1",
+      "nodeType": "Component"
+    },
+    {
+      "id": "6d7ec3c4-21b0-41ff-81b9-2eeaf736a0d4",
+      "name": "Backend App 1",
+      "nodeType": "Component"
+    },
+    {
+      "id": "a117d42d-20df-4dec-a829-dc914b84fd0d",
+      "name": "User Phone",
+      "nodeType": "Infrastructure"
+    },
+    {
+      "id": "02891529-f60c-49eb-9763-0cb2b74e7ee4",
+      "name": "AWS Frankfurt",
+      "nodeType": "Infrastructure"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "a304d2bf-b981-4453-bf7c-946bfc3a1322-6d7ec3c4-21b0-41ff-81b9-2eeaf736a0d4",
+      "from": "a304d2bf-b981-4453-bf7c-946bfc3a1322",
+      "to": "6d7ec3c4-21b0-41ff-81b9-2eeaf736a0d4"
+    },
+    {
+      "id": "a304d2bf-b981-4453-bf7c-946bfc3a1322-a117d42d-20df-4dec-a829-dc914b84fd0d",
+      "from": "a304d2bf-b981-4453-bf7c-946bfc3a1322",
+      "to": "a117d42d-20df-4dec-a829-dc914b84fd0d"
+    },
+    {
+      "id": "6d7ec3c4-21b0-41ff-81b9-2eeaf736a0d4-02891529-f60c-49eb-9763-0cb2b74e7ee4",
+      "from": "6d7ec3c4-21b0-41ff-81b9-2eeaf736a0d4",
+      "to": "02891529-f60c-49eb-9763-0cb2b74e7ee4"
+    }
+  ]
+}

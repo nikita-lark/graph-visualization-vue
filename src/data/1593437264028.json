@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "id": "5a8c77ea-d716-47d2-a1b8-08b5f10248a5",
+      "name": "eMail Server",
+      "nodeType": "Component"
+    },
+    {
+      "id": "df854791-b994-4aeb-ba8f-fdb21f1cffb5",
+      "name": "Unknown Owner",
+      "nodeType": "LegalEntity"
+    },
+    {
+      "id": "d81deebc-6c51-4dd1-8d44-d241500aeaba",
+      "name": "Unknown Infrastructure",
+      "nodeType": "Infrastructure"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "5a8c77ea-d716-47d2-a1b8-08b5f10248a5-d81deebc-6c51-4dd1-8d44-d241500aeaba",
+      "from": "5a8c77ea-d716-47d2-a1b8-08b5f10248a5",
+      "to": "d81deebc-6c51-4dd1-8d44-d241500aeaba"
+    },
+    {
+      "id": "5a8c77ea-d716-47d2-a1b8-08b5f10248a5-df854791-b994-4aeb-ba8f-fdb21f1cffb5",
+      "from": "5a8c77ea-d716-47d2-a1b8-08b5f10248a5",
+      "to": "df854791-b994-4aeb-ba8f-fdb21f1cffb5"
+    }
+  ]
+}

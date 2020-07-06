@@ -1,0 +1,30 @@
+<g ref="draggableContainer" @mousedown="onMouseDown">
+  <rect
+    :x="x"
+    :y="y"
+    width="60"
+    height="30"
+    r="10"
+    rx="10"
+    ry="10"
+    fill="#fff"
+    stroke="#000"
+    fill-opacity="1"
+    stroke-width="2"
+    style="fill-opacity: 1; cursor: move;"
+  />
+  <text
+    :x="x + 30"
+    :y="y + 15"
+    text-anchor="middle"
+    font="10px &quot;Arial&quot;"
+    stroke="none"
+    fill="#000000"
+    style="text-anchor: middle; font: 15px Arial; cursor: move;"
+    font-size="15px"
+  >
+    <tspan dy="5.5">
+      {{ label }}
+    </tspan>
+  </text>
+</g>
