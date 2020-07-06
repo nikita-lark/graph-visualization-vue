@@ -5,6 +5,7 @@
   "description": "An example of Springy.js integration into a Vue.js application.",
   "main": "main.js",
   "scripts": {
+    "build": "vue-cli-service build",
     "dev": "vue-cli-service serve",
     "test": "mocha 'src/**/*.test.*'",
     "lint": "./node_modules/.bin/eslint ./src"

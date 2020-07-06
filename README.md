@@ -4,7 +4,7 @@ A [Vue.js](https://vuejs.org/) application
 which demonstrates graph rendering using [Springy.js](http://getspringy.com/).
 
 ## Demo
-[https://lark.ee/graph-vue](https://lark.ee/graph-vue])
+[https://larkit.se/graph-vue](https://larkit.se/graph-vue/)
 
 ## Features
 - Graphs are visualized using [SVG](https://www.w3schools.com/graphics/svg_intro.asp).
